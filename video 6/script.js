@@ -1,19 +1,10 @@
-console.log("Hello world".toUpperCase());
+console.log("Hello world");
 
-let a = 5;
-let b = 6;
-let d = '5';
-let e = Number(d); // or let e = +d
+const a = 5;
+const b = 10;
+console.log("Fifteen is " + (a + b) + " and\nnot " + (2 * a + b) + ".");
 
-console.log(a + b);//11
-
-// cong vs chuoi thi convert qua chuoi
-console.log(a + d);//55
-
-// tru nhan chia convert qua so, roi moi tinh
-console.log(a - d);//0
-console.log(a * d);//25
-
-console.log(a === d, typeof a, typeof d);
-
-console.log('e value: ', e, 'type: ', typeof e);
+console.log(`Fifteen is ${a + b} and
+not ${2 * a + b}.`);
+// "Fifteen is 15 and
+// not 20."

@@ -4,7 +4,7 @@ let b = 2;
 const c = 5; // constant, khong dc gan lai
 
 console.log(`Hello '' "" from js`) // dung dau backtik de show dau nhay don, nhay kep thoai mai
-console.log(`The sum of a and b is ${a + b}`); // tinh toan trong chuoi
+console.log(`The sum of a and b is ${a + b}`); // template string, tinh toan or bien o trong use template engine
 console.log(`The sum of a and b is`, a + b);
 
 
