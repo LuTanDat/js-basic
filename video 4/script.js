@@ -1,3 +1,5 @@
+
+// cong tu trai sang phai
 console.log(4 + 5 + 'a');//9 + a = 9a
 console.log('a' + 5 + 4);//a5 + 4 = a54
 
