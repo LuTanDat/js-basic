@@ -1,5 +1,7 @@
 console.log("Hello world");
 
+
+// for (dieu kien) {block code}
 // for (let i = 0; i < 10; i++) {
 //   console.log(i)
 // }
